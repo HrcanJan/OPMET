@@ -55,7 +55,6 @@ function handleSubmitForm() {
 	if (check3.value) reportTypes.push('TAF')
 
 	const stations = airports.value !== '' ? airports.value.split(' ') : []
-
 	const countries = countriesList.value !== '' ? countriesList.value.split(' ') : []
 
 	const prcMessage = {
